@@ -1,10 +1,11 @@
-linux-firmware (1.183.5) eoan; urgency=medium
+linux-firmware (1.183.5+system76) eoan; urgency=medium
 
+  [ Seth Forshee ]
   * [drm:uvd_v1_0_start [radeon]] *ERROR* UVD not responding, trying to
     reset the VCPU!!! (LP: #1865130)
     - Revert "radeon: update oland rlc microcode from amdgpu"
 
- -- Seth Forshee <seth.forshee@canonical.com>  Thu, 19 Mar 2020 12:09:47 -0500
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 13 Apr 2020 09:07:40 -0600
 
 linux-firmware (1.183.4) eoan; urgency=medium
 
